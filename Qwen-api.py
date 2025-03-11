@@ -7,9 +7,10 @@ response = client.chat.completions.create(
     model='deepseek-ai/DeepSeek-V2.5',
     messages=[
         {'role':"system",
-         'content':"你好，你是我的人工智能助手贾维斯"},
+         'content':"你好，你是我的人工智能助手哪吒"},
         {'role': 'user', 
-        'content': "请描绘一下清华大学尽管学院经25班***"}
+        'content': "请分析一下鸡杂这个名字"}
+
     ],
     stream=True
 )
