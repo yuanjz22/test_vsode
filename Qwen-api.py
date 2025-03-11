@@ -9,7 +9,7 @@ response = client.chat.completions.create(
         {'role':"system",
          'content':"你好，你是我的人工智能助手贾维斯"},
         {'role': 'user', 
-        'content': "请分析一下***这个名字"}
+        'content': "请分析一下元敬哲这个名字"}
     ],
     stream=True
 )
